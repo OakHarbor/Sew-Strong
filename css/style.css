@@ -870,15 +870,33 @@
     }
 
     .heroText {
-        width: 700px;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     #home-h {
         width: 550px;
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     #home-p {
         width: 450px;
+        text-align: center;
+        background: rgb(119, 8, 8);
+        padding: 10px;
     }
 
     .about-button {
@@ -1195,10 +1213,19 @@
         height: auto;
         margin-left: 0;
         width: 1100px !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .heroText h1 {
@@ -1223,7 +1250,6 @@
         font-weight: normal;
         background: rgb(119, 8, 8);
         padding: 10px;
-        margin-bottom: ;
     }
 
     .about-button {
