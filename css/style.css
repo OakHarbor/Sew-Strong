@@ -504,13 +504,13 @@
     .material {
         width: 250px;
         margin-top: 0;
-        transition: .3s ease-in-out;
+        transition: .3s ease-in-out !important;
     }
 
     .material:hover {
-        transform: scale(1.1);
+        transform: scale(1.1) !important;
         cursor: pointer;
-        transition: .3s ease-in-out;
+        transition: .3s ease-in-out !important;
     }
 
     .material:first-child {
