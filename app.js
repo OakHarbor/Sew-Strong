@@ -27,6 +27,7 @@ let toggleNav = function () {
         item.style.visibility = "visible";
         });
       getSidebar.style.width = "60%";
+      getSidebar.style.right = "0";
       $html.addClass("clicked");
       toggleNavStatus = true;
     } 
@@ -39,6 +40,7 @@ let toggleNav = function () {
           item.style.visibility = "hidden";
          });
         getSidebar.style.width = "0";
+        getSidebar.style.right = "-150px";
         $html.removeClass("clicked");
         toggleNavStatus = false;
     }
