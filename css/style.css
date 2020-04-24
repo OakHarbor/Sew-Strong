@@ -78,6 +78,7 @@
     margin-bottom: 30px;
     font-weight: 800;
     font-size: 2em;
+    color: var(--primary);
 }
 
 #connect h3 {
@@ -137,6 +138,10 @@
     margin-bottom: 20px;
 }
 
+#mask {
+    width: 130px !important;
+}
+
 .material h3 {
     text-align: center;
     font-size: 1.4em;
@@ -169,7 +174,7 @@
     <--- -------------------------- -*/
 
     .container {
-        max-width: 450px;
+        max-width: 650px;
     }
 
     .heroText {
@@ -193,12 +198,23 @@
         width: 100%;
         text-align: center;
         margin-bottom: 50px;
+        font-size: 45px;
     }
 
     #home-p {
         width: 90%;
         text-align: center;
         padding: 10px;
+    }
+
+    #contact-svg {
+        width: 280px !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .contact-content {
+        width: 300px;
     }
 
 }
@@ -298,11 +314,6 @@
 
     .container {
         max-width: 1000px;
-    }
-
-    .section {
-        padding-top: 100px !important;
-        padding-bottom: 100px !important;
     }
 
     /*-- -------------------------- -->
@@ -445,7 +456,7 @@
     }
 
     /*-- -------------------------- -->
-    <---          MATERIALS          -->
+    <---          MATERIALS         -->
     <--- -------------------------- -*/
 
     #materials h2 {
@@ -469,10 +480,33 @@
     .material {
         width: 250px;
         margin-top: 0;
+        transition: .3s ease-in-out;
+    }
+
+    .material:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        transition: .3s ease-in-out;
+    }
+
+    .material:first-child {
+        height: 221px;
     }
 
     .material svg {
         width: 70px !important;
+    }
+
+    #mask {
+        width: 90px !important;
+    }
+
+    #mask {
+        transform: translateY(-10px)
+    }
+
+    .mask {
+        transform: translateY(-18px);
     }
 
 }
