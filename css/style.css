@@ -8,9 +8,10 @@
     height: auto;
     min-height: 100vh;
     width: 100%;
-    background: url("/images/landing.jpg");
+    background: url("/images/mobile-landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #fff;
     position: relative;
     display: -webkit-box;
@@ -69,6 +70,10 @@
     width: 188px;
 }
 
+.volunteer-button {
+    margin-bottom: 10px;
+}
+
 /*-- -------------------------- -->
 <---           CONNECT          -->
 <--- -------------------------- -*/
@@ -109,7 +114,7 @@
 <--- -------------------------- -*/
 
 #materials {
-    background: #fbfbfb;
+    background: url("/images/sewing.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -164,6 +169,10 @@
         display: block;
     }
 
+    .volunteer-button {
+        margin-bottom: 25px;
+    }
+
 }
 
 /* Tablets */
@@ -197,7 +206,7 @@
     #home-h {
         width: 100%;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-size: 45px;
     }
 
@@ -321,7 +330,7 @@
     <--- -------------------------- -*/
 
     #hero {
-        background: url("/images/landing-desktop.jpg");
+        background: url("/images/landing-2.jpg");
         height: 800px;
         width: 100%;
         background-repeat: no-repeat;
