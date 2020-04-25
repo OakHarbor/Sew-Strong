@@ -85,35 +85,35 @@
 /* forms default state */
 .sewing-form {
     visibility: hidden;
-    left: 1000px;
-    -webkit-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    left: 3000px;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
 }
 
 .driving-form {
     visibility: hidden;
-    right: 1000px;
-    -webkit-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    right: 3000px;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
 }
 
 /* forms clicked state */
 .sewing-form.clicked {
     visibility: visible;
     left: 0;
-    -webkit-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
 }
 
 .driving-form.clicked {
     right: 0;
     visibility: visible;
-    -webkit-transition: .3s ease-in-out;
-    -o-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
 }
 
 .contact-topper {
@@ -140,10 +140,16 @@
 #valley-form {
     display: relative;
     height: 570px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #valley-form.clicked {
     height: 800px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .forms-container {
@@ -364,6 +370,35 @@ form p{
     <---           LANDING          -->
     <--- -------------------------- -*/
 
+    #home-h {
+        text-align: center;
+        width: 100%;
+    }
+
+    /*-- -------------------------- -->
+    <---            FORMS           -->
+    <--- -------------------------- -*/
+
+    #valley-form {
+        max-width: 470px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        -webkit-transition: .3s ease-in-out;
+        -o-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    #contact {
+        max-width: 100%;
+    }
+
+    .sew-button, .drive-button {
+        width: 200px;
+    }
+
+    #contact-strip {
+        margin-top: 100px;
+    }
     
 }
 
@@ -374,6 +409,40 @@ form p{
     <---          LANDING           -->
     <--- -------------------------- -*/
 
-    
+    #hero {
+        min-height: 450px;
+        height: 450px;
+    }
+
+    #home-h {
+        text-align: center;
+        width: 100%;
+        font-size: 70px;
+    }
+
+    /*-- -------------------------- -->
+    <---            FORMS           -->
+    <--- -------------------------- -*/
+
+    #valley-form {
+        max-width: 520px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        -webkit-transition: .3s ease-in-out;
+        -o-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    #contact {
+        max-width: 100%;
+    }
+
+    .sew-button, .drive-button {
+        width: 200px;
+    }
+
+    #contact-strip {
+        margin-top: 100px;
+    }
 
 }
