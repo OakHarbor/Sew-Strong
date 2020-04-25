@@ -44,7 +44,7 @@ p {
 	line-height: 1.6em;
 }
 
-p, a, li {
+p, a, li, label {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	margin: 0;
