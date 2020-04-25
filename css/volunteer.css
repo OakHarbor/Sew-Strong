@@ -5,7 +5,7 @@
 <--- -------------------------- -*/
 
 #hero {
-    background: url("/images/volunteer.jpg");
+    background: url("/images/mobile-volunteer.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,11 +66,21 @@
     color: var(--primary);
 }
 
+.sew-button:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
 .drive-button {
     min-width: 100px;
     background: #fff;
     border: 1px solid var(--primary);
     color: var(--primary);
+}
+
+.drive-button:hover {
+    background: var(--primary);
+    color: #fff;
 }
 
 /* Buttons Clicked */
@@ -414,6 +424,11 @@ form p{
     <--- -------------------------- -*/
 
     #hero {
+        background: url("/images/volunteer.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
         min-height: 450px;
         height: 450px;
     }

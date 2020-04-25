@@ -126,7 +126,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: url("/images/sewing.jpg");
+    background: url("/images/mobile-seweing.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -505,6 +505,11 @@
         width: 250px;
         margin-top: 0;
         transition: .3s ease-in-out !important;
+    }
+
+    #materials:before {
+        background: url("/images/sewing.jpg");
+        background-attachment: fixed;
     }
 
     .material:hover {
