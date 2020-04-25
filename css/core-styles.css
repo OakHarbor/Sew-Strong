@@ -448,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 <---           CONTACT          -->
 <--- -------------------------- -*/
 
-#contact svg {
+#contact-strip svg {
     width: 100%;
     height: auto;
     margin-top: 50px;
@@ -499,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
     <---           CONTACT          -->
     <--- -------------------------- -*/
 
-    #contact {
+    #contact-strip {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6 {
                 align-items: center;
     }
 
-    #contact svg {
+    #contact-strip svg {
         width: 300px;
         margin: 0;
     }
@@ -764,7 +764,7 @@ h1, h2, h3, h4, h5, h6 {
     <---           CONTACT          -->
     <--- -------------------------- -*/
 
-    #contact {
+    #contact-strip {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -781,7 +781,7 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 900px;
     }
 
-    #contact svg {
+    #contact-strip svg {
         width: 350px;
         margin: 0;
     }

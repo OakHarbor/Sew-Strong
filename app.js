@@ -44,6 +44,33 @@ let toggleNav = function () {
     }
 }
 
+/* Volunteer form behavior */
+
+var $sewing = $(".sew-button");
+var $driving = $(".drive-button");
+var $valley = $("#valley-form");
+
+var $sewingForm = $(".sewing-form");
+var $drivingForm = $(".driving-form");
+
+  $sewing.on("click", function(e) {
+    $sewing.addClass("clicked");
+    $sewingForm.addClass("clicked");
+    $driving.removeClass("clicked");
+    $drivingForm.removeClass("clicked");
+    $valley.removeClass("clicked");
+    // Do something else, like open/close menu
+  });
+
+  $driving.on("click", function(e) {
+    $driving.addClass("clicked");
+    $drivingForm.addClass("clicked");
+    $sewing.removeClass("clicked");
+    $sewingForm.removeClass("clicked");
+    $valley.addClass("clicked");
+    // Do something else, like open/close menu
+  });
+
 /* Modals collected in variables */
 
 var $modalOne = $(".modal-one");

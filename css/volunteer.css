@@ -1,0 +1,379 @@
+
+
+/*-- -------------------------- -->
+<---           LANDING          -->
+<--- -------------------------- -*/
+
+#hero {
+    min-height: 300px;
+    height: 300px;
+}
+
+#home-h {
+    text-align: center;
+    margin-top: 70px;
+}
+
+/*-- -------------------------- -->
+<---            FORM            -->
+<--- -------------------------- -*/
+
+#valley-form {
+    position: relative;
+}
+
+#contact {
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 50px !important;
+}
+
+.button-group {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.button-group h2 {
+    width: 100%;
+    display: block;
+    font-size: 1em;
+    color: #666;
+    font-weight: 300;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+/* default button states */
+.sew-button {
+    min-width: 100px;
+    background: #fff;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.drive-button {
+    min-width: 100px;
+    background: #fff;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+/* Buttons Clicked */
+.sew-button.clicked {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    color: #fff;
+}
+
+.drive-button.clicked {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    color: #ffffff !important;
+}
+
+/* forms default state */
+.sewing-form {
+    visibility: hidden;
+    left: 1000px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.driving-form {
+    visibility: hidden;
+    right: 1000px;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+/* forms clicked state */
+.sewing-form.clicked {
+    visibility: visible;
+    left: 0;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.driving-form.clicked {
+    right: 0;
+    visibility: visible;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.contact-topper {
+    font-weight: 700;
+    font-size: 1.667em;
+    margin-bottom: 0px;
+    position: relative;
+    margin-top: 50px;
+    color: #414141;
+}
+
+#contact h3 {
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.contact-topper span {
+    color: var(--primary);
+    display: inline-block;
+}
+
+/* Form */
+#valley-form {
+    display: relative;
+    height: 570px;
+}
+
+#valley-form.clicked {
+    height: 800px;
+}
+
+.forms-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"], 
+#contact input[type="url"], 
+#contact textarea, 
+#contact button[type="submit"] { 
+    font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; 
+    border-radius: 5px;
+}
+
+#contact {
+    background: transparent;
+    position: absolute;
+    z-index: 3;
+    width: auto;
+    max-width: 350px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    top: 0;
+}
+
+#contact h3 {
+    color: #414141;
+    display: block;
+    font-size: 1.333em;
+    font-weight: 700;
+}
+
+.form-text {
+    margin: 0 0 30px 0;
+    display:block;
+    color: #414141;
+    line-height: 1.6em;
+}
+
+form p{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], 
+#contact input[type="email"], 
+#contact input[type="tel"], 
+#contact input[type="url"], 
+#contact textarea {
+    width:100%;
+    border:1px solid #CCC;
+    background:#FFF;
+    margin:0 0 15px;
+    padding:15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#contact input[type="text"]:hover, 
+#contact input[type="email"]:hover, 
+#contact input[type="tel"]:hover, 
+#contact input[type="url"]:hover, 
+#contact textarea:hover {
+    -webkit-transition:border-color 0.3s ease-in-out;
+    -o-transition:border-color 0.3s ease-in-out;
+    transition:border-color 0.3s ease-in-out;
+    border:1px solid #AAA;
+}
+
+#contact textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+    cursor:pointer;
+    height: 50px;
+    font-weight: 900;
+    font-size: 1em;
+    margin: 0;
+    background: var(--primary);
+    color: #fff;
+    width: auto;
+    padding: 10px 30px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#contact button::before {
+    border-color: var(--primary);
+}
+
+#contact button::after {
+    border-color: var(--primary);
+}
+
+#contact button[type="submit"]:hover {
+    opacity: .6;
+    -webkit-transition:background 0.3s ease-in-out;
+    -webkit-transition:background-color 0.3s ease-in-out;
+    -o-transition:background-color 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { 
+    -webkit-box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); 
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+.form-h4 {
+    font-size: 1.190em;
+}
+
+.form-p {
+    margin-bottom: 100px;
+}
+
+.form-submit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.contact-right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-right h3 {
+    font-weight: 700;
+    font-size: 1.667em;
+    margin-bottom: 0px;
+    position: relative;
+    color: #414141;
+}
+
+.contact-right h4 {
+    font-size: 1.250em;
+    line-height: 1.8em;
+    color: #808080;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.contact-right p {
+    margin: 15px auto;
+}
+
+.contact-right p span {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* Level 1 */
+@media screen and (min-width: 360px) and (max-width: 400px) {
+
+    .sew-button, .drive-button {
+        min-width: 160px;
+        width: 160px;
+    }
+
+}
+
+/* Level 2 */
+@media screen and (min-width: 401px) and (max-width: 470px) {
+
+    .sew-button, .drive-button {
+        min-width: 180px;
+        width: 180px;
+    }
+
+}
+
+/* Tablets */
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+
+    /*-- -------------------------- -->
+    <---           LANDING          -->
+    <--- -------------------------- -*/
+
+    
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+
+    /*-- -------------------------- -->
+    <---          LANDING           -->
+    <--- -------------------------- -*/
+
+    
+
+}
