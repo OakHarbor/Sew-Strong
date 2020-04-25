@@ -323,9 +323,9 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	right: 0px;
 	height: 100%;
-	-webkit-transition: .3s ease-in-out;
-	-o-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out !important;
+	-o-transition: .3s ease-in-out !important;
+	transition: .3s ease-in-out !important;
     z-index: 1000;
     padding: 0;
 }
