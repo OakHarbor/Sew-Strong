@@ -28,6 +28,12 @@
     height: auto;
 }
 
+#valley-form svg {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 30px;
+}
+
 #contact {
     height: auto;
     width: 100%;
