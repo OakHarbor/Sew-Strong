@@ -741,7 +741,7 @@ h1, h2, h3, h4, h5, h6 {
 		border-right: none;
         border-bottom: 2px solid var(--primary);
         padding-bottom: 5px !important;
-        color: #000 !important;
+        color: #404040 !important;
     }
 
 	/*-- -------------------------- -->
