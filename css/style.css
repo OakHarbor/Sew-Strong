@@ -78,6 +78,33 @@
 <---           CONNECT          -->
 <--- -------------------------- -*/
 
+.banner {
+    background: #666;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.banner p:first-child {
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.banner p:last-child {
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+    font-style: italic;
+}
+
+#connect {
+    padding-top: 0 !important;
+}
+
 #connect h2 {
     text-align: center;
     margin-bottom: 30px;

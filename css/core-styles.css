@@ -360,6 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .side-nav a {
+    color: #666;
 	text-decoration: none;
 	padding: 5px 10px 5px 10px;
 	-webkit-transition: .3s ease-in-out;
@@ -708,7 +709,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav a {
 		padding: 10px 0;
-        color: #000;
+        color: #666;
         font-weight: bold;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
