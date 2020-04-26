@@ -531,6 +531,8 @@
     .material {
         width: 250px;
         margin-top: 0;
+        -webkit-transition: .3s ease-in-out !important;
+        -o-transition: .3s ease-in-out !important;
         transition: .3s ease-in-out !important;
     }
 
@@ -540,8 +542,12 @@
     }
 
     .material:hover {
-        transform: scale(1.1) !important;
+        -webkit-transform: scale(1.1) !important;
+            -ms-transform: scale(1.1) !important;
+                transform: scale(1.1) !important;
         cursor: pointer;
+        -webkit-transition: .3s ease-in-out !important;
+        -o-transition: .3s ease-in-out !important;
         transition: .3s ease-in-out !important;
     }
 
@@ -558,11 +564,15 @@
     }
 
     #mask {
-        transform: translateY(-10px)
+        -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+                transform: translateY(-10px)
     }
 
     .mask {
-        transform: translateY(-18px);
+        -webkit-transform: translateY(-18px);
+            -ms-transform: translateY(-18px);
+                transform: translateY(-18px);
     }
 
 }

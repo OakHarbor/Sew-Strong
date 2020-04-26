@@ -103,6 +103,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     cursor: pointer;
     border: 1px solid var(--primary);
+    -webkit-transition: .3s ease;
+    -o-transition: .3s ease;
     transition: .3s ease;
     color: var(--primary);
 }
