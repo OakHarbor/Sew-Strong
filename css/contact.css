@@ -5,23 +5,16 @@
 <--- -------------------------- -*/
 
 #hero {
-    min-height: 200px;
-    height: 200px;
-    background: url('/images/new-home.png');
+    min-height: 130px;
+    height: 130px;
+    background: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-#hero:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    opacity: .2;
-    top: 0;
-    left: 0;
+#dark {
+    display: none;
 }
 
 #home-h {

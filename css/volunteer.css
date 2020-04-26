@@ -5,12 +5,16 @@
 <--- -------------------------- -*/
 
 #hero {
-    background: url("/images/mobile-volunteer.jpg");
+    background: #fff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 300px;
-    height: 300px;
+    min-height: 70px;
+    height: 70px;
+}
+
+#dark {
+    display: none;
 }
 
 #home-h {

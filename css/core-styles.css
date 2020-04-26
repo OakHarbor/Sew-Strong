@@ -64,7 +64,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-wrapper {
 	background: transparent;
-    border-bottom: 5px solid var(--primary);
     height: 100px;
     position: absolute;
     right: 0;
