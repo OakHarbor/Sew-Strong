@@ -485,6 +485,8 @@
     #connect h3 {
         width: 500px;
         margin: auto;
+        font-size: 1.3em;
+        color: #66;
     }
 
     .delivery:first-child {
