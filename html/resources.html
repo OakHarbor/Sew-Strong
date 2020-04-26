@@ -24,7 +24,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/core-styles.css">
-    <link rel="stylesheet" href="/css/order.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/resources.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Roboto&display=swap" rel="stylesheet">
 
     <!-- jQuery -->
@@ -61,8 +62,8 @@
                         <li class="nav-li"><a href="/index.html">Home</a></li>
                         <li class="nav-li"><a href="/html/about.html">About</a></li>
                         <li class="nav-li"><a href="/html/volunteer.html">Volunteer</a></li>
-                        <li class="nav-li"><a class="active-menu" href="/html/order.html">Order</a></li>
-                        <li class="nav-li"><a href="/html/resources.html">Resources</a></li>
+                        <li class="nav-li"><a href="/html/order.html">Order</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/html/resources.html">Resources</a></li>
                         <li class="nav-li"><a href="/html/contact.html">Contact</a></li>
                         <li class="nav-li"><button class="button-solid quote-nav-button" onclick="location.href='https://www.gofundme.com/f/help-sewstrong-volunteers-make-masks?utm_source=customer&utm_medium=email&utm_campaign=p_cp+share-sheet'" type="button">
                             Donate</button></li>
@@ -87,43 +88,39 @@
     </section>
 
     <!-- ============================================ -->
-    <!--                    FORMS                     -->
+    <!--                 RESOURCES                    -->
     <!-- ============================================ -->
 
-    <section id="valley-form" class="container">
-        <form id="contact" class="order-form" name="Order Form" method="post" data-netlify="true">
-            <h3 class="contact-topper"><span>ORDER</span> FORM</h3>
-            
-                <input aria-label="organization" name="organization" placeholder="Organization" type="text" tabindex="1" required>
-                <select aria-label="organization type" name="Organization Type" placeholder="Job Title">
-                    <option disabled="disabled" selected="selected" value="Organization Type">Select And Organization Type:</option>
-                    <option value="Specialty Clinic">Specialty Clinic</option>
-                    <option value="Skilled Nursing Facility">Skilled Nursing Facility</option>
-                    <option value="Senior Center">Senior Center</option>
-                    <option value="Pharmacy">Pharmacy</option>
-                    <option value="Outpatient Clinic">Outpatient Clinic</option>
-                    <option value="Home Health Agency">Home Health Agency</option>
-                    <option value="Essential Workers">Essential Workers</option>
-                    <option value="Eductional Institution">Eductional Institution</option>
-                    <option value="Community Health Organization">Community Health Organization</option>
-                    <option value="Congregate Housing">Congregate Housing</option>
-                </select>
-                <input aria-label="title" name="title" placeholder="Job Title" type="text" tabindex="2" required>
-                <input aria-label="email" name="email" placeholder="Email Address" type="email" tabindex="3" required>
-                <input aria-label="phone number" name="phone" placeholder="Phone Number" type="tel" tabindex="2" required>
-                <input aria-label="address" name="address" placeholder="Address" type="text" tabindex="4" required>
-                <input aria-label="delivery address" name="delivery address" placeholder="Delivery Address" type="text" tabindex="4" required>
-                <input aria-label="city" name="city" placeholder="City" type="text" tabindex="4" required>
-                <input aria-label="state" name="state" placeholder="State" type="text" tabindex="4" required>
-                <input aria-label="zip code" name="zip" placeholder="Zip Code (9 digit if you can)" type="text" tabindex="5" required>
-                <input aria-label="mask order amount" name="mask order #" placeholder="Mask Order #" type="text" tabindex="4" required>
-                <input aria-label="face sheild order number" name="face sheild #" placeholder="Face Sheild Order #" type="text" tabindex="4" required>
-                <input aria-label="gown order number" name="gown #" placeholder="Gown Order #" type="text" tabindex="4" required>
-        
-            <p class="form-submit">
-                <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
+    <section id="resources" class="container">
+        <div class="button-group">
+            <h2>Mask Pattern</h2>
+            <button class="button-solid" type="submit" onclick="window.open('/images/Mask-pattern.pdf')">
+                CLICK TO DOWNLOAD
+            </button>
+            <h2>Mask Care and Use</h2>
+            <button class="button-solid" type="submit" onclick="window.open('/images/Use-and-care-of-your-cloth-mask.pdf')">
+                CLICK TO DOWNLOAD
+            </button>
+        </div>
+        <div class="text-group">
+            <p>Caution:  Please do not make masks if you are sick or if there is anyone in your 
+               household who is sick, especially if you or anyone has respiratory symptoms. 
             </p>
-        </form>
+            <p>
+                <strong>Clean working space: </strong>Please make sure you have a clean working 
+                space free from contamination by food, animals, those with colds or the flu, and 
+                those not assembling the masks. 
+            </p>
+            <p>
+                <strong>Wash Hands: </strong>Continually wash hands being aware of when you have 
+                touched a surface that might be contaminated, or your face, to wash your hands before 
+                you again touch any of the materials used to assemble the masks.  
+            </p>
+            <p>
+                <strong>Prepare the Fabric:  </strong>Please pre-wash and dry the fabric on a hot cycle 
+                before you make the masks. 
+            </p>
+        </div>
     </section>
 
     <!-- ============================================ -->
