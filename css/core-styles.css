@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 30px;
     height: 3px;
-    background-color: #fff;
+    background-color: #404040;
     border-radius: 7px;
     position: absolute;
     -webkit-transition-property: -webkit-transform;

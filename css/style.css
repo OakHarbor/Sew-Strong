@@ -487,8 +487,14 @@
         margin: auto;
     }
 
+    .delivery:first-child {
+        margin-bottom: 0;
+        transform: translateX(-50px) !important;
+    }
+
     .delivery:last-child {
         margin-bottom: 0;
+        transform: translateX(50px);
     }
 
     .delivery:last-child img {
