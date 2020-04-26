@@ -33,8 +33,8 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background: #000;
-    opacity: .6;
+    background: #e7e7e7;
+    opacity: .93;
     top: 0;
 }
 
@@ -48,7 +48,7 @@
 
 .heroText h1 {
 	font-size: 1.8em;
-	color: #fff;
+	color: #000;
 	text-align: left;
 	font-weight: bold;
 	overflow-y: hidden;
@@ -56,7 +56,7 @@
 }
 
 .heroText h2 {
-	color: #fff;
+	color: #666;
 	font-size: 1em;
 	text-align: left;
 	line-height: 1.6em;
@@ -93,7 +93,7 @@
     line-height: 1.7em;
 }
 
-.delivery svg {
+.delivery img {
     width: 100%;
     height: auto;
     margin-top: 100px;
@@ -322,7 +322,7 @@
         display: block;
     }
 
-    .delivery svg {
+    .delivery img {
         width: 300px;
         margin: 0;
     }
@@ -392,8 +392,8 @@
     }
 
     .heroText h1 {
-        font-size: 3.6em;
-        color: #fff;
+        font-size: 3em;
+        color: #000;
         text-align: center;
         font-weight: bold;
         overflow-y: hidden;
@@ -403,12 +403,12 @@
     }
 
     .heroText h2 {
-        color: #fff;
+        color: #000;
         font-size: 1em;
         text-align: center;
         line-height: 1.6em;
         padding: 30px 0;
-        width: 680px;
+        width: 600px;
         position: relative;
         font-weight: normal;
         padding: 10px;
@@ -448,7 +448,7 @@
         margin-bottom: 0;
     }
 
-    .delivery:last-child svg {
+    .delivery:last-child img {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2;
@@ -470,7 +470,7 @@
         display: block;
     }
 
-    .delivery svg {
+    .delivery img {
         width: 350px;
         margin: 0;
     }

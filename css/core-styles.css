@@ -93,13 +93,17 @@ h1, h2, h3, h4, h5, h6 {
 	width: auto;
     -webkit-transition: .3s ease;
     -o-transition: .3s ease;
-    transition: .3s ease;
+    transition: .3s ease !important;
     border-radius: 25px;
+    font-weight: bold;
 }
 
 .button-solid:hover {
-    background: #9a2125;
-	cursor: pointer;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    transition: .3s ease;
+    color: var(--primary);
 }
 
 .button-transparent {
@@ -364,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 	     -o-transition-delay: .2s;
 	        transition-delay: .2s;
 	opacity: 0;
-	visibility: hidden;
+    visibility: hidden;
 }
 
 .active-menu {
@@ -449,20 +453,61 @@ h1, h2, h3, h4, h5, h6 {
 <---           CONTACT          -->
 <--- -------------------------- -*/
 
-#contact-strip svg {
+#contact-strip {
+    background:url("../images/img-10-compressor-crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 36px;
+    position: relative;
+}
+
+#contact-strip:before {
+    content: '';
+    position: absolute;
+    height: 100%;
     width: 100%;
-    height: auto;
-    margin-top: 50px;
+    top: 0;
+    left: 0;
+    background: var(--primary);
+    opacity: .95;
 }
 
-.contact-content h2 {
-    font-size: 1.7em;
-    margin-top: 30px;
+.contact-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+}
+
+.contact-group h2 {
+    color: #fff;
+    font-size: 1.500em;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-.contact-content p {
-    margin-bottom: 30px;
+.contact-group p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-button {
+    background: #fff;
+    color: #4c4c4c;
+    width: 200px;
 }
 
 /* Tablets */
@@ -501,6 +546,10 @@ h1, h2, h3, h4, h5, h6 {
     <--- -------------------------- -*/
 
     #contact-strip {
+        background-attachment: fixed;
+    }
+
+    .contact-group {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -511,18 +560,19 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        width: 100%;
+        margin: auto;
     }
 
-    #contact-strip svg {
-        width: 300px;
+    .contact-group h2 {
         margin: 0;
+        text-align: left;
     }
 
-    .contact-content {
-        width: 340px;
+    .contact-group p {
+        margin: 0;
+        width: 500px;
+        text-align: left;
     }
 }
 
@@ -567,7 +617,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 0 !important;
 		position: absolute;
 		left: 2em;
-        height: 98px;
+        height: 80px;
         width: auto;
 	}
 
@@ -632,7 +682,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.side-nav ul li {
-		margin: 0 30px 0 0;
+		margin: 0 40px 0 0;
 		text-align: right;
 	}
 
@@ -657,7 +707,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	.side-nav a {
 		padding: 10px 0;
-        color: #fff;
+        color: #000;
         font-weight: bold;
 		-webkit-transition: .2s ease;
 		-o-transition: .2s ease;
@@ -685,7 +735,7 @@ h1, h2, h3, h4, h5, h6 {
 	.active-menu {
 		border-right: none;
         border-bottom: 2px solid var(--primary);
-        padding-bottom: 10px;
+        padding-bottom: 7px !important;
     }
 
 	/*-- -------------------------- -->
@@ -766,6 +816,10 @@ h1, h2, h3, h4, h5, h6 {
     <--- -------------------------- -*/
 
     #contact-strip {
+        background-attachment: fixed;
+    }
+
+    .contact-group {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -776,19 +830,19 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        max-width: 900px;
+        width: 1000px;
+        margin: auto;
     }
 
-    #contact-strip svg {
-        width: 350px;
+    .contact-group h2 {
         margin: 0;
+        text-align: left;
     }
 
-    .contact-content {
-        width: 380px;
+    .contact-group p {
+        margin: 0;
+        width: 500px;
+        text-align: left;
     }
 }
 
