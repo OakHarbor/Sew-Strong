@@ -428,13 +428,12 @@ form p{
     <--- -------------------------- -*/
 
     #hero {
-        background: url("/images/volunteer.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
-        min-height: 450px;
-        height: 450px;
+        min-height: 150px;
+        height: 150px;
     }
 
     #home-h {
@@ -449,6 +448,7 @@ form p{
 
     #valley-form {
         max-width: 520px;
+        height: 700px;
         padding-top: 50px;
         padding-bottom: 50px;
         -webkit-transition: .3s ease-in-out;

@@ -515,11 +515,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Tablets */
-@media screen and (min-width: 500px) and (max-width: 1024px) {
+@media screen and (min-width: 500px) and (max-width: 1027px) {
 
 	.mobile-nav-container {
 		max-width: 100% !important;
-	}
+    }
+    
+    .mobile-wrapper {
+        max-width: 100% !important;
+        width: 900px;
+    }
 	
 	/*-- -------------------------- -->
     <---          LANDING           -->
@@ -581,7 +586,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1028px) {
 
     .section {
         padding-top: 100px !important;
