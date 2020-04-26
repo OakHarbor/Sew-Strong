@@ -48,7 +48,7 @@
 
 .heroText h1 {
 	font-size: 1.8em;
-	color: #000;
+	color: #404040;
 	text-align: left;
 	font-weight: bold;
 	overflow-y: hidden;
@@ -420,7 +420,7 @@
 
     .heroText h1 {
         font-size: 3em;
-        color: #000;
+        color: #404040;
         text-align: center;
         font-weight: bold;
         overflow-y: hidden;
