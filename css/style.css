@@ -56,14 +56,13 @@
 }
 
 .heroText h2 {
-    background: #404040;
-	color: #fff !important;
+	color: #999;
 	font-size: 1em;
 	text-align: left;
 	line-height: 1.6em;
     padding: 30px 0;
     position: relative;
-    font-weight: bold !important;
+    font-weight: normal;
 }
 
 .about-button,
@@ -73,8 +72,6 @@
 
 .volunteer-button {
     margin-bottom: 10px;
-    background: var(--primary);
-    display: none;
 }
 
 /*-- -------------------------- -->
@@ -422,10 +419,6 @@
                 align-items: center;
     }
 
-    #dark {
-        z-index: 1;
-    }
-
     .heroText h1 {
         font-size: 3em;
         color: #404040;
@@ -459,14 +452,6 @@
     <---           CONNECT          -->
     <--- -------------------------- -*/
 
-    .banner {
-        width: 800px;
-        margin: auto;
-        position: relative;
-        transform: translateY(-100px);
-        z-index: 1000;
-    }
-
     .banner p:first-child {
         font-size: 1.1em;
         max-width: 780px;
@@ -493,6 +478,7 @@
     }
 
     #connect h2 {
+        margin-top: 100px;
         margin-bottom: 10px;
     }
 
