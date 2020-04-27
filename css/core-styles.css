@@ -4,6 +4,12 @@
 <---         CORE STYLES        -->
 <--- -------------------------- -*/
 
+.skip {
+    position: absolute;
+    opacity: 0;
+    z-index: -1000;
+}
+
 * {
     
 	-webkit-box-sizing: border-box;
