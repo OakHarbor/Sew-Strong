@@ -19,7 +19,7 @@
             align-items: center;
     position: relative;
     z-index: 1000;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .who-group h2:before {
@@ -43,7 +43,7 @@
 }
 
 .who-group:first-child {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .who-group img {
