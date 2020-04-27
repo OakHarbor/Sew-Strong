@@ -8,10 +8,9 @@
 
 .who-group h2 {
     width: 280px;
-    color: #fff;
-    font-size: 80px;
+    color: #404040;
+    font-size: 30px;
     text-align: left;
-    padding: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,31 +19,13 @@
             align-items: center;
     position: relative;
     z-index: 1000;
-    margin-bottom: 40px;
 }
 
-.who-group h2:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+.line {
     background: var(--primary);
-    opacity: .8;
-    z-index: -1;
-}
-
-.who-group h2:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: url("/images/sewing.jpg");
-    opacity: .9;
-    z-index: -2;
+    height: 5px;
+    width: 40px;
+    margin: 20px 0 30px 0;
 }
 
 .who-group:last-child h2 {
@@ -118,64 +99,14 @@
         margin-bottom: 300px !important;
     }
 
-    .who-group {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-    }
-
     .who-group h2 {
-        width: 280px;
-        color: #fff;
-        font-size: 80px;
-        text-align: right;
-        padding: 20px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        position: relative;
-        z-index: 1000;
-    }
-
-    .who-group h2:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: var(--primary);
-        opacity: .8;
-        z-index: -1;
-    }
-    .who-group h2:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background: url("/images/sewing.jpg");
-        opacity: .9;
-        z-index: -2;
-    }
-
-    .who-group h2 {
-        margin-bottom: 0;
+        height: auto;
+        font-size: 30px;
+        margin-bottom: 30px;
     }
 
     .who-group p {
-        width: 350px;
+        width: 100;
     }
 
     #bio h2:before {
@@ -197,35 +128,6 @@
         bottom: 8px;
         left: 230px !important;
     }
-
-    .who-group:last-child {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        margin-top: 100px;
-    }
-
-    .who-group:last-child h2 {
-        -webkit-box-ordinal-group: 3;
-            -ms-flex-order: 2;
-                order: 2;
-        text-align: left;
-    }
-
-    .who-group:last-child p {
-        text-align: right;
-    }
-
 }
 
 /* Desktop */
