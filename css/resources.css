@@ -14,6 +14,10 @@
     font-weight: 800;
     font-style: italic;
     margin-bottom: 30px;
+}  
+
+.text-group p:first-child {
+    color: var(--primary);
 }
 
 .text-group p {
