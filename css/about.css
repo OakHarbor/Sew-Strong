@@ -150,6 +150,10 @@
         height: 350px;
     }
 
+    .who-group:last-child {
+        height: 300px;
+    }
+
     .who-group img {
         float: left !important;
         margin-bottom: 360px;
@@ -196,12 +200,12 @@
     #bio img {
         float: left;
         margin-right: 66px;
-        margin-bottom:100px;
+        margin-bottom: 0px;
         width: 240px;
     }
 
     #first {
-        margin-bottom: 150px !important;
+        margin-bottom: 20px !important;
     }
 
     #bio h2 {
@@ -226,11 +230,17 @@
     }
 
     .first-g {
-        margin-bottom: 0;
+        margin-bottom: 100px;
     }
 
     .medical-advisor-team {
         padding: 0;
+    }
+
+    .bold {
+        width: 600px;
+        text-align: center;
+        margin: auto;
     }
 
 }
