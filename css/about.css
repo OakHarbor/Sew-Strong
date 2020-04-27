@@ -19,6 +19,16 @@
             align-items: center;
     position: relative;
     z-index: 1000;
+    margin-bottom: 30px;
+}
+
+.who-group h2:before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    width: 40px;
+    background: var(--primary);
+    bottom: -12px;
 }
 
 .line {
@@ -32,21 +42,20 @@
     text-align: right;
 }
 
-.who-group:last-child h2:before {
-    background: #000;
-    opacity: .7;
+.who-group:first-child {
+    margin-bottom: 100px;
 }
 
-.who-group {
-    margin-bottom: 50px;
-}
-
-#bio {
-    margin-top: 30px;
+.who-group img {
+    margin-bottom: 40px;
 }
 
 .bio-group {
     margin-bottom: 100px;
+}
+
+#bio {
+    padding-top: 0;
 }
 
 #bio img {
@@ -81,6 +90,10 @@
         max-width: 700px;
     }
 
+    #bio {
+        margin-top: 50px;
+    }
+
     #bio h2 {
         position: relative;
     }
@@ -108,26 +121,6 @@
     .who-group p {
         width: 100;
     }
-
-    #bio h2:before {
-        content: '';
-        position: absolute;
-        background: var(--primary);
-        height: 1px;
-        width: 410px;
-        bottom: 8px;
-        left: 270px;
-    }
-
-    .first-header:before {
-        content: '';
-        position: absolute;
-        background: var(--primary);
-        height: 1px;
-        width: 450px;
-        bottom: 8px;
-        left: 230px !important;
-    }
 }
 
 /* Desktop */
@@ -138,7 +131,7 @@
     }
 
     .who-group {
-        max-width: 650px;
+        max-width: 900px;
     }
 
     .who-group:last-child {
@@ -146,11 +139,13 @@
     }
 
     .who-group img {
-        margin-bottom: 0;
+        float: left;
+        margin-bottom: 170px;
+        margin-right: 50px;
     }
 
     .who-group p {
-        width: 600px;
+        width: 100%;
     }
 
     .who-group:last-child h2 {
