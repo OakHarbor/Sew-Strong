@@ -169,7 +169,7 @@
     }
 
     #bio {
-        max-width: 1100px;
+        max-width: 960px;
     }
 
     .sewstrong-team,
@@ -191,8 +191,13 @@
 
     #bio img {
         float: left;
-        margin-right: 30px;
+        margin-right: 50px;
         margin-bottom:100px;
+        width: 256px;
+    }
+
+    #first {
+        margin-bottom: 150px !important;
     }
 
     #bio h2 {
