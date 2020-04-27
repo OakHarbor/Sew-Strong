@@ -61,6 +61,10 @@
     padding-top: 0;
 }
 
+.medical-advisor-team {
+    padding: 0;
+}
+
 #bio img {
     width: 200px;
     margin-bottom: 30px;
