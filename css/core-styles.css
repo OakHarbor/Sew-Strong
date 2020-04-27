@@ -840,13 +840,18 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        width: 650px;
+        width: 550px;
         margin: auto;
+    }
+
+    .top {
+        width: 250px;
     }
 
     .contact-group h2 {
         margin: 0;
         text-align: left;
+        width: 250px;
     }
 
     .contact-group p {
@@ -969,6 +974,7 @@ footer p {
 
     footer p {
         margin-top: 10px;
+        max-width: 570px;
     }
 
     .links {
