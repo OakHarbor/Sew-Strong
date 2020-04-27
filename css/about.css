@@ -212,7 +212,7 @@
         display: block;
         width: 100%;
         position: relative;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         padding-left: 306px;
     }
 
@@ -222,7 +222,7 @@
         height: 4px;
         width: 40px;
         background: var(--primary);
-        bottom: -20px;
+        bottom: -12px;
     }
 
     .bio-group {
