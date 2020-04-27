@@ -127,7 +127,7 @@
 @media screen and (min-width: 1027px) {
 
     #who-we-are {
-        max-width: 900px;
+        max-width: 1100px;
         margin: auto;
     }
 
@@ -136,12 +136,12 @@
     }
 
     .who-group {
-        max-width: 900px;
+        max-width: 1100px;
     }
 
     .who-group img {
-        float: left;
-        margin-bottom: 250px;
+        float: left !important;
+        margin-bottom: 360px;
         margin-right: 50px;
     }
 
@@ -154,10 +154,6 @@
 
     .who-group p {
         width: 100%;
-    }
-
-    .who-group:last-child h2 {
-        text-align: center;
     }
 
     #bio {
