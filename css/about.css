@@ -139,21 +139,17 @@
         max-width: 900px;
     }
 
-    .who-group:last-child {
-        margin-bottom: 0;
-        width: 533px;
-        margin-right: 0;
-        padding: 0;
-    }
-
     .who-group img {
         float: left;
-        margin-bottom: 170px;
+        margin-bottom: 250px;
         margin-right: 50px;
     }
 
-    .last-image {
-        margin-bottom: 50px !important;
+    .spacer {
+        width: 380px;
+        height: 300px;
+        float: left;
+        margin-right: 50px;
     }
 
     .who-group p {
