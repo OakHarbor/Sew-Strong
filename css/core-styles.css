@@ -472,7 +472,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     top: 0;
     left: 0;
-    background: var(--primary);
+    background: #404040;
     opacity: .95;
 }
 
@@ -873,9 +873,51 @@ h1, h2, h3, h4, h5, h6 {
 /* mobile footer */
 
 footer {
-    background: #666;
+    background: var(--primary);
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.links {
+    margin: auto;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: .8em;
+    width: 80px;
+    text-align: center;
+}
+
+.links a:hover {
+    opacity: .8;
+}
+
+
+
+footer p {
+    font-size: .6em;
+    color: #fff;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .branding h2 {
@@ -891,7 +933,18 @@ footer {
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
 
-    
+    .links a {
+        border-right: 1px solid #fff;
+    }
+
+    .liks a :first-child {
+        padding-left: 0;
+    }
+
+    .links a:last-child {
+        padding-right: 0;
+        border: none;
+    }
 
 }
 
