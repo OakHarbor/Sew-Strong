@@ -156,12 +156,10 @@
 
     .who-group img {
         float: left !important;
-        margin-bottom: 360px;
-        margin-right: 0px;
-        -webkit-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-                transform: rotate(90deg);
-        margin-top: 50px;
+        margin-right: 70px;
+        margin-top: 0px;
+        margin-bottom: 230px;
+        margin-left: 57px;
     }
 
     .spacer {
