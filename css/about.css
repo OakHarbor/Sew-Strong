@@ -129,6 +129,10 @@
 /* Desktop */
 @media screen and (min-width: 1027px) {
 
+    #bio {
+        padding-top: 0 !important;
+    }
+
     #who-we-are {
         max-width: 1100px;
         margin: auto;
@@ -185,6 +189,12 @@
                 justify-content: space-between;
     }
 
+    #bio img {
+        float: left;
+        margin-right: 30px;
+        margin-bottom:100px;
+    }
+
     #bio h2 {
         display: block;
         width: 100%;
@@ -193,74 +203,24 @@
     }
 
     #bio h2:before {
-        content: '';
         position: absolute;
-        background: var(--primary);
-        height: 1px;
-        width: 500px;
-        bottom: 8px;
-        left: 270px;
-    }
-
-    .first-header:before {
         content: '';
-        position: absolute;
+        height: 4px;
+        width: 40px;
         background: var(--primary);
-        height: 1px;
-        width: 0px;
-        bottom: 8px;
-        opacity: 0;
-        left: 230px !important;
-        -webkit-animation-name: grow;
-                animation-name: grow;
-        -webkit-animation-duration: 1s;
-                animation-duration: 1s;
-        -webkit-animation-timing-function: ease-in-out;
-                animation-timing-function: ease-in-out;
-        -webkit-animation-iteration-count: 1;
-                animation-iteration-count: 1;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards;
-        -webkit-animation-delay: .3s;
-                animation-delay: .3s;
-    }
-
-    @-webkit-keyframes grow {
-        0% {
-            width: 0;
-            opacity: 0;
-        }
-
-        50% {
-            width: 0;
-            opacity: 1;
-        }
-
-        100% {
-            width: 500px;
-            opacity: 1;
-        }
-    }
-
-    @keyframes grow {
-        0% {
-            width: 0;
-            opacity: 0;
-        }
-
-        50% {
-            width: 0;
-            opacity: 1;
-        }
-
-        100% {
-            width: 500px;
-            opacity: 1;
-        }
+        bottom: -20px;
     }
 
     .bio-group {
-        width: 470px;
+        width: 100%;
+    }
+
+    .first-g {
+        margin-bottom: 0;
+    }
+
+    .medical-advisor-team {
+        padding: 0;
     }
 
 }
