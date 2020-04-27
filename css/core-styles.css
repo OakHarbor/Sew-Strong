@@ -840,7 +840,7 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        width: 800px;
+        width: 650px;
         margin: auto;
     }
 
@@ -853,6 +853,10 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0;
         width: 500px;
         text-align: left;
+    }
+
+    .contact-button {
+        min-width: 190px;
     }
 }
 
