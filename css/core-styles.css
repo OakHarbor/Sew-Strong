@@ -955,5 +955,29 @@ footer p {
         padding-top: 20px !important;
         padding-bottom: 20px !important;
     }
+
+    footer p {
+        margin-top: 10px;
+    }
+
+    .links {
+        max-width: 800px;
+    }
+
+    .links a {
+        border-right: 1px solid #fff;
+        font-size: 1em;
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .liks a :first-child {
+        padding-left: 0;
+    }
+
+    .links a:last-child {
+        padding-right: 0;
+        border: none;
+    }
 	
 }
