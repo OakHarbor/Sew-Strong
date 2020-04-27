@@ -126,6 +126,11 @@
 /* Desktop */
 @media screen and (min-width: 1027px) {
 
+    #who-we-are {
+        max-width: 900px;
+        margin: auto;
+    }
+
     #white-space {
         height: 300px;
     }
@@ -136,6 +141,9 @@
 
     .who-group:last-child {
         margin-bottom: 0;
+        width: 533px;
+        margin-right: 0;
+        padding: 0;
     }
 
     .who-group img {
