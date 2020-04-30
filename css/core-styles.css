@@ -946,6 +946,16 @@ footer p {
     font-weight: bold;
 }
 
+.branding a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.branding a:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {

@@ -33,7 +33,8 @@
 
     #resources {
         max-width: 600px;
-        margin: 100px auto
+        margin: 100px auto;
+        margin-top: 20px;
     }
 
     .text-group p {
