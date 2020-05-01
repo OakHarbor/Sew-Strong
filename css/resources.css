@@ -37,6 +37,10 @@
         margin-top: 20px;
     }
 
+    .text-group p:first-child {
+        font-size: 1.2em;
+    }
+
     .text-group p {
         width: 600px;
     }
