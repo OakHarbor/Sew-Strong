@@ -432,7 +432,7 @@
 
     .heroText h2 {
         color: #666;
-        font-size: 1em;
+        font-size: 1.2em;
         text-align: center;
         line-height: 1.6em;
         padding: 30px 0;
@@ -485,7 +485,7 @@
     #connect h3 {
         width: 400px;
         margin: auto;
-        font-size: 1em;
+        font-size: 1.2em;
         color: #666;
     }
 
