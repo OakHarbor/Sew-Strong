@@ -9,7 +9,7 @@
 .who-group h2 {
     width: 280px;
     color: #404040;
-    font-size: 30px;
+    font-size: 1.875em;
     text-align: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -124,7 +124,7 @@
 
     .who-group h2 {
         height: auto;
-        font-size: 30px;
+        font-size: 1.875em;
         margin-bottom: 30px;
     }
 
