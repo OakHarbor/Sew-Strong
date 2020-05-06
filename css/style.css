@@ -492,7 +492,6 @@
     .delivery img {
         -webkit-box-shadow: 10px 10px 35px -16px rgba(0,0,0,0.75);
         box-shadow: 10px 10px 35px -16px rgba(0,0,0,0.75);
-        border: 5px solid #fff;
     }
 
     .delivery:first-child {
