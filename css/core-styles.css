@@ -868,6 +868,13 @@ h1, h2, h3, h4, h5, h6 {
 
     .contact-button {
         min-width: 190px;
+        transition: .3s ease;
+    }
+
+    .contact-button:hover {
+        border: none;
+        opacity: .8;
+        transition: .3s ease;
     }
 }
 
