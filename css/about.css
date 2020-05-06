@@ -229,7 +229,7 @@
     #bio h2:before {
         position: absolute;
         content: '';
-        height: 4px;
+        height: 3px;
         width: 40px;
         background: var(--primary);
         bottom: -12px;
