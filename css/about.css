@@ -50,7 +50,6 @@
     margin-bottom: 40px;
     -webkit-box-shadow: 10px 10px 35px -16px rgba(0,0,0,0.75);
         box-shadow: 10px 10px 35px -16px rgba(0,0,0,0.75);
-        border: 5px solid #fff;
 }
 
 .bio-group {
@@ -70,7 +69,6 @@
     margin-bottom: 30px;
     -webkit-box-shadow: 10px 10px 35px -16px rgba(0,0,0,0.75);
         box-shadow: 10px 10px 35px -16px rgba(0,0,0,0.75);
-        border: 5px solid #fff;
 }
 
 #bio h2 {
