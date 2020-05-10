@@ -24,28 +24,25 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
     <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/core-styles.css">
-    <link rel="stylesheet" href="/css/order.css">
+    <link rel="stylesheet" href="/css/volunteer.css">
+    <link rel="stylesheet" href="/css/driving.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800,900|Roboto&display=swap" rel="stylesheet">
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Volunteer Form | SewStrong | Seattle, WA</title>
 </head>
 <body>
 
-    <a class="skip" aria-label="skip to main content" href="order.html#main">Click To Skip To Main</a>
+    <a class="skip" aria-label="skip to main content" href="volunteer.html#main">Click To Skip To Main</a>
 
     <header>
         <!-- Desktop Navbar -->
@@ -73,8 +70,8 @@
                     <ul id="on-top" class="navbar-links">
                         <li class="nav-li"><a href="/index.html">Home</a></li>
                         <li class="nav-li"><a href="/html/about.html">About</a></li>
-                        <li class="nav-li"><a href="/html/volunteer.html">Volunteer</a></li>
-                        <li class="nav-li"><a class="active-menu" href="/html/order.html">Order</a></li>
+                        <li class="nav-li"><a class="active-menu" href="/html/volunteer.html">Volunteer</a></li>
+                        <li class="nav-li"><a href="/html/order.html">Order</a></li>
                         <li class="nav-li"><a href="/html/resources.html">Resources</a></li>
                         <li class="nav-li"><a href="/html/contact.html">Contact</a></li>
                         <li class="nav-li"><button class="button-solid quote-nav-button" onclick="location.href='https://www.gofundme.com/f/help-sewstrong-volunteers-make-masks?utm_source=customer&utm_medium=email&utm_campaign=p_cp+share-sheet'" type="button">
@@ -103,42 +100,24 @@
     <!--                    FORMS                     -->
     <!-- ============================================ -->
 
-    <section id="valley-form" class="container">
-        <form id="contact" class="order-form" name="Order Form" method="post" data-netlify="true">
-            <h3 class="contact-topper"><span>ORDER</span> FORM</h3>
+    <section data-aos="fade-up" id="valley-form" class="container">
+        <div class="forms-container">
+            <form id="contact" class="sewing-form clicked" name="Sewing Form" method="post" data-netlify="true">
+                <h3 class="contact-topper"><span>DRIVING</span> VOLUNTER FORM</h3>
+                
+                    <input aria-label="name" name="name" placeholder="Name" type="text" tabindex="1" required>
+                    <input aria-label="phone number" name="phone" placeholder="Phone Number" type="tel" tabindex="2" required>
+                    <input aria-label="email" name="email" placeholder="Email Address" type="email" tabindex="3" required>
+                    <input aria-label="city" name="city" placeholder="City" type="text" tabindex="4" required>
+                    <input aria-label="zip code" name="zip" placeholder="Zip Code (9 digit if you can)" type="text" tabindex="5" required>
+                    <textarea aria-label="availability" name="availability" placeholder="Availability" tabindex="6" required></textarea>
+                    <textarea aria-label="driving range" name="range" placeholder="What is your maximum driving range?" tabindex="7" required></textarea>
             
-                <input aria-label="organization" name="organization" placeholder="Organization" type="text" tabindex="1" required>
-                <select aria-label="organization type" name="Organization Type" placeholder="Job Title">
-                    <option aria-label="Organization Type" aria-label="disabled" disabled="disabled" selected="selected" value="Organization Type">Select An Organization Type:</option>
-                    <option aria-label="Specialty Clinic" value="Specialty Clinic">Specialty Clinic</option>
-                    <option aria-label="Skilled Nursing Facility" value="Skilled Nursing Facility">Skilled Nursing Facility</option>
-                    <option aria-label="Senior Center" value="Senior Center">Senior Center</option>
-                    <option aria-label="Pharmacy" value="Pharmacy">Pharmacy</option>
-                    <option aria-label="Outpatient Clinic" value="Outpatient Clinic">Outpatient Clinic</option>
-                    <option aria-label="Home Health Agency" value="Home Health Agency">Home Health Agency</option>
-                    <option aria-label="Essential Workers" value="Essential Workers">Essential Workers</option>
-                    <option aria-label="Eductional Institution" value="Eductional Institution">Eductional Institution</option>
-                    <option aria-label="Community Health Organization" value="Community Health Organization">Community Health Organization</option>
-                    <option aria-label="Congregate Housing" value="Congregate Housing">Congregate Housing</option>
-                </select>
-                <input aria-label="title" name="title" placeholder="Job Title" type="text" tabindex="2" required>
-                <input aria-label="email" name="email" placeholder="Email Address" type="email" tabindex="3" required>
-                <input aria-label="phone number" name="phone" placeholder="Phone Number" type="tel" tabindex="4" required>
-                <input aria-label="address" name="address" placeholder="Address" type="text" tabindex="5" required>
-                <input aria-label="address line two, optional" name="address-line-2" placeholder="Address line 2 (optional)" type="text" tabindex="6">
-                <input aria-label="delivery address" name="delivery address" placeholder="Delivery Address" type="text" tabindex="7" required>
-                <input aria-label="delivery address line two" name="delivery address line two" placeholder="Delivery Address Line 2 (optional)" type="text" tabindex="8">
-                <input aria-label="city" name="city" placeholder="City" type="text" tabindex="9" required>
-                <input aria-label="state" name="state" placeholder="State" type="text" tabindex="10" required>
-                <input aria-label="zip code" name="zip" placeholder="Zip Code (9 digit if you can)" type="text" tabindex="11" required>
-                <input aria-label="mask order amount" name="mask order #" placeholder="Mask Order #" type="text" tabindex="12" required>
-                <input aria-label="face sheild order number" name="face sheild #" placeholder="Face Sheild Order #" type="text" tabindex="13" required>
-                <input aria-label="gown order number" name="gown #" placeholder="Gown Order #" type="text" tabindex="14" required>
-        
-            <p class="form-submit">
-                <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
-            </p>
-        </form>
+                <p aria-label="submit" class="form-submit">
+                    <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
+                </p>
+            </form>
+        </div>
     </section>
 
     <!-- ============================================ -->
@@ -147,7 +126,8 @@
 
     <section id="contact-strip">
         <div class="contact-group">
-            <div class="top"><h2>Join the Team!</h2>
+            <div class="top">
+                <h2>Join the Team!</h2>
                 <p>Together we are strong.</p>
             </div>
             <button class="button-solid contact-button" onclick="location.href='/html/contact.html'" type="button">
@@ -176,6 +156,16 @@
                 <h2>Made with &hearts; by <a href="https://www.oakharborwebdesigns.com/">Oak Harbor Web Designs</a> + Designed by <a href="https://www.behance.net/kylekurokawa">Kyle Kurokawa</a></h2></h2>
         </div>
     </footer>
+
+    <script>
+		AOS.init({
+			offset: 20, // offset (in px) from the original trigger point
+			once: true, // whether animation should happen only once - while scrolling down
+		    delay: 0, // values from 0 to 3000, with step 50ms
+		    duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+        });
+    </script>
     
     
     <script src="/app.js"></script>
