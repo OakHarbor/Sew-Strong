@@ -226,7 +226,7 @@
     <--- -------------------------- -*/
 
     #hero {
-        background: url("/images/landing.jpg");
+        background: url("/images/landing-2.jpg");
     }
 
     .container {
@@ -276,7 +276,7 @@
 }
 
 /* Level 1 */
-@media screen and (min-width: 841px) and (max-width: 1023px) {
+@media screen and (min-width: 841px) and (max-width: 1025px) {
 
     .container {
         max-width: 780px;
@@ -366,7 +366,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1026px) {
 
     .container {
         max-width: 1000px;
@@ -500,9 +500,7 @@
 
     .delivery:first-child {
         margin-bottom: 0;
-        -webkit-transform: translateX(-50px) !important;
-            -ms-transform: translateX(-50px) !important;
-                transform: translateX(-50px) !important;
+        transform: translateX(-50px) !important;
     }
 
     .first-d {
@@ -513,9 +511,7 @@
     .delivery:last-child {
         margin-bottom: 0;
         margin-top: 80px;
-        -webkit-transform: translateX(50px);
-            -ms-transform: translateX(50px);
-                transform: translateX(50px);
+        transform: translateX(50px);
     }
 
     .delivery:last-child img {
