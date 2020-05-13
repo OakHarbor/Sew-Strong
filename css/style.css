@@ -276,7 +276,7 @@
 }
 
 /* Level 1 */
-@media screen and (min-width: 841px) and (max-width: 1025px) {
+@media screen and (min-width: 841px) and (max-width: 1023px) {
 
     .container {
         max-width: 780px;
@@ -366,7 +366,7 @@
 }
 
 /* Desktop */
-@media screen and (min-width: 1026px) {
+@media screen and (min-width: 1024px) {
 
     .container {
         max-width: 1000px;
@@ -399,6 +399,10 @@
         -webkit-box-pack: start;
             -ms-flex-pack: start;
                 justify-content: flex-start;
+    }
+
+    #dark {
+        opacity: .8;
     }
 
     .heroText {
