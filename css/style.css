@@ -225,6 +225,10 @@
     <---          LANDING           -->
     <--- -------------------------- -*/
 
+    #hero {
+        background: url("/images/landing.jpg");
+    }
+
     .container {
         max-width: 650px;
     }
@@ -496,7 +500,9 @@
 
     .delivery:first-child {
         margin-bottom: 0;
-        transform: translateX(-50px) !important;
+        -webkit-transform: translateX(-50px) !important;
+            -ms-transform: translateX(-50px) !important;
+                transform: translateX(-50px) !important;
     }
 
     .first-d {
@@ -507,7 +513,9 @@
     .delivery:last-child {
         margin-bottom: 0;
         margin-top: 80px;
-        transform: translateX(50px);
+        -webkit-transform: translateX(50px);
+            -ms-transform: translateX(50px);
+                transform: translateX(50px);
     }
 
     .delivery:last-child img {
