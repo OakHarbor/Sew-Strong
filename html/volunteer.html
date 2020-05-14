@@ -106,6 +106,8 @@
                 Sewing</button>
             <button id="driving" class="button-solid drive-button" onclick="" type="button">
                 Driving</button>
+            <button id="volunteer" class="button-solid volunteer-button" onclick="" type="button">
+                Extra</button>
         </div>
         <div class="forms-container">
             <form id="contact" class="sewing-form clicked" name="Sewing Form" method="post" data-netlify="true">
@@ -134,6 +136,22 @@
                     <textarea aria-label="driving range" name="range" placeholder="What is your maximum driving range?" tabindex="7" required></textarea>
             
                 <p aria-label="submit" class="form-submit">
+                    <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
+                </p>
+            </form>
+
+            <form id="contact" class="volunteer-form" name="General Volunteer Form" method="post" data-netlify="true">
+                <h3 class="contact-topper"><span>GENERAL</span> VOLUNTEER FORM</h3>
+                <p>If you want to volunteer your time for things other than sewing or driving, you may fill out this form.</p>
+                
+                    <input aria-label="name" name="name" placeholder="Name" type="text" tabindex="1" required>
+                    <input aria-label="phone number" name="phone" placeholder="Phone Number" type="tel" tabindex="2" required>
+                    <input aria-label="email" name="email" placeholder="Email Address" type="email" tabindex="3" required>
+                    <input aria-label="city" name="city" placeholder="City" type="text" tabindex="4" required>
+                    <input aria-label="zip code" name="zip" placeholder="Zip Code (9 digit if you can)" type="text" tabindex="5" required>
+                    <input aria-label="volunteer position" name="volunteer position desired" placeholder="How would you like to help?" type="text" tabindex="6" required>
+            
+                <p class="form-submit">
                     <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
                 </p>
             </form>

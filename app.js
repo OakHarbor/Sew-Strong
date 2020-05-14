@@ -49,9 +49,11 @@ let toggleNav = function () {
 var $sewing = $(".sew-button");
 var $driving = $(".drive-button");
 var $valley = $("#valley-form");
+var $volunteer = $(".volunteer-button");
 
 var $sewingForm = $(".sewing-form");
 var $drivingForm = $(".driving-form");
+var $volunteerForm = $(".volunteer-form");
 
   $sewing.on("click", function(e) {
     $sewing.addClass("clicked");
@@ -59,6 +61,8 @@ var $drivingForm = $(".driving-form");
     $driving.removeClass("clicked");
     $drivingForm.removeClass("clicked");
     $valley.removeClass("clicked");
+    $volunteer.removeClass("clicked");
+    $volunteerForm.removeClass("clicked");
     // Do something else, like open/close menu
   });
 
@@ -68,6 +72,19 @@ var $drivingForm = $(".driving-form");
     $sewing.removeClass("clicked");
     $sewingForm.removeClass("clicked");
     $valley.addClass("clicked");
+    $volunteer.removeClass("clicked");
+    $volunteerForm.removeClass("clicked");
+    // Do something else, like open/close menu
+  });
+
+  $volunteer.on("click", function(e) {
+    $volunteer.addClass("clicked");
+    $volunteerForm.addClass("clicked");
+    $sewing.removeClass("clicked");
+    $sewingForm.removeClass("clicked");
+    $valley.addClass("clicked");
+    $driving.removeClass("clicked");
+    $drivingForm.removeClass("clicked");
     // Do something else, like open/close menu
   });
 

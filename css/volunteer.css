@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     min-height: 70px;
     height: 70px;
+    margin-bottom: 120px;
 }
 
 #dark {
@@ -64,7 +65,8 @@
 
 /* default button states */
 .sew-button {
-    min-width: 100px;
+    max-width: 100%;
+    width: 100%;
     background: #fff;
     border: 1px solid var(--primary);
     color: var(--primary);
@@ -76,13 +78,27 @@
 }
 
 .drive-button {
-    min-width: 100px;
+    max-width: 100%;
+    width: 100%;
     background: #fff;
     border: 1px solid var(--primary);
     color: var(--primary);
 }
 
 .drive-button:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+.volunteer-button {
+    max-width: 100%;
+    width: 100%;
+    background: #fff;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.volunteer-button:hover {
     background: var(--primary);
     color: #fff;
 }
@@ -95,6 +111,12 @@
 }
 
 .drive-button.clicked {
+    background: var(--primary);
+    border: 1px solid var(--primary);
+    color: #ffffff !important;
+}
+
+.volunteer-button.clicked {
     background: var(--primary);
     border: 1px solid var(--primary);
     color: #ffffff !important;
@@ -117,6 +139,14 @@
     transition: .6s ease;
 }
 
+.volunteer-form {
+    visibility: hidden;
+    right: 3000px;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
+}
+
 /* forms clicked state */
 .sewing-form.clicked {
     visibility: visible;
@@ -127,6 +157,14 @@
 }
 
 .driving-form.clicked {
+    right: 0;
+    visibility: visible;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
+}
+
+.volunteer-form.clicked {
     right: 0;
     visibility: visible;
     -webkit-transition: .6s ease;
@@ -456,12 +494,22 @@ form p{
         transition: .3s ease-in-out;
     }
 
-    #contact {
-        max-width: 100%;
+    .sew-button, .drive-button {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    
+    .volunteer-button {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0;
+        display: inline-block;
     }
 
-    .sew-button, .drive-button {
-        width: 200px;
+    
+
+    #contact {
+        max-width: 100%;
     }
 
     #contact-strip {
