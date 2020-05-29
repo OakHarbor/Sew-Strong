@@ -1,4 +1,5 @@
 
+
 /* jQuery for the navigation animation */
 
 var $hamburger = $(".hamburger");
