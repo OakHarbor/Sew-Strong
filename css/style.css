@@ -377,6 +377,7 @@
     }
 
     .browsehappy {
+        display: block;
         background: yellow;
         position: absolute;
         z-index: 1000;

@@ -1,10 +1,4 @@
-var ua = window.navigator.userAgent;
-var trident = ua.indexOf('Trident/');
-if (trident > 0) {
-        // IE 11 => return version number
-        var rv = ua.indexOf('rv:');
-        alert('You are using an outdated browser')
-    }
+
 
 /* jQuery for the navigation animation */
 
