@@ -1,4 +1,16 @@
-
+window.onload = function()
+{
+    checkBrowser();
+}
+function checkBrowser()
+{
+    var ie = /MSIE (\d+)/.exec(navigator.userAgent);
+    ie = ie? ie[1] : null;
+    if(ie && ie <= 9)
+    {
+        alert("some message");
+    }
+}
 
 /* jQuery for the navigation animation */
 
