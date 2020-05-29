@@ -1,3 +1,10 @@
+
+var IE = $(".browsehappy")
+
+if ( !$.browser.msie ) {
+  $IE.addClass("ie");
+}
+
 /* jQuery for the navigation animation */
 
 var $hamburger = $(".hamburger");

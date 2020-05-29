@@ -4,6 +4,10 @@
 <---           LANDING          -->
 <--- -------------------------- -*/
 
+.browsehappy {
+    display: none;
+}
+
 #hero {
     height: auto;
     min-height: calc(100vh - 50px);
@@ -370,6 +374,24 @@
 
     .container {
         max-width: 1000px;
+    }
+
+    .browsehappy {
+        background: yellow;
+        position: absolute;
+        z-index: 1000;
+        height: 100px;
+        width: 100%;
+    }
+
+    .browsehappy.ie {
+        display: block;
+    }
+
+    .browsehappy p {
+        margin: auto;
+        width: 100%;
+        text-align: center;
     }
 
     /*-- -------------------------- -->
