@@ -105,14 +105,14 @@
 
     <section id="valley-form" class="container">
         
-        <form id="contact" class="sewing-form clicked" name="Contact Form" method="post" data-netlify="true">
+        <form id="contact" class="sewing-form clicked" name="Contact Form" method="post" data-netlify-recaptcha="true" data-netlify="true">
             <h3 class="contact-topper"><span>CONTACT</span> FORM</h3>
             
                 <input aria-label="name" name="name" placeholder="Name" type="text" tabindex="1" required>
                 <input aria-label="phone number" name="phone" placeholder="Phone Number" type="tel" tabindex="2" required>
                 <input aria-label="email" name="email" placeholder="Email Address" type="email" tabindex="3" required>
                 <textarea aria-label="text area" name="message" placeholder="Type your message here..." tabindex="4" required></textarea>
-        
+            <div data-netlify-recaptcha="true"></div>
             <p class="form-submit">
                 <button name="submit" type="submit" id="contact-submit" class="primary button-solid" data-submit="...Sending">Submit</button>
             </p>
